@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<title>Create Participant</title>
+</head>
+    <body>
+			<ul>
+			<li> <b>Create Participant Record</b> 
+			</ul>
+	  <h2>Participant Data</h2>
+	  <form action="create_participants_record.php" method="POST"></p>
+	  
+      <p>Name:
+      <input  type="text" name="name_first" value="" placeholder="Firstname">
+      <input  type="text" name="name_middle" value="" placeholder="Middlename">
+      <input  type="text" name="name_last" value="" placeholder="Lastname" >
+      <input  type="text" name="nickname" value="" placeholder="Nickname">
+      <p> Preferred pronoun: 
+      <p><input type="radio" name="preferred_pronoun" value="he/him/his"> He/Him/His</p>
+      <input type="radio" name="preferred_pronoun" value="she/her/hers"> She/Her/Hers</p>
+      <input type="radio" name="preferred_pronoun" value="they/them/theirs"> They/Them/Theirs</p>
+      <input type="radio" name="preferred_pronoun" value="other"> Other</p>
+      <p>Name of School: 
+      <input  type="text" name="school" value="" placeholder="Name of School"></p>
+      <p>Email Address
+      <input  type="email_address" name="email_address" value="" placeholder="Email"></p>
+      <p>Phone number:
+      <input  type="tel" name="phone" value="" placeholder="Phone Number"></p>
+      <p>Date of Birth: 
+      <input  type="date" name="date_of_birth" value="" placeholder="Date of Birth"></p>
+      <p>Graduation Year:
+      <input  type="number" name="graduation_year" value="" placeholder="Graduation Year"></p>
+      <p>Location:
+      <input  type="text" name="location_city" value="" placeholder="City"</p>
+      <input  type="text" name="location_county" value="" placeholder="County"</p>
+      <p>Recieved free or reduced lunch: 
+      <p><input  type="radio" name="recieved_free_or_reduced_lunch" value="yes"> Yes</p>
+      <input  type="radio" name="recieved_free_or_reduced_lunch" value="No"> No</p>
+      <p>Goals/Interests
+      <input  type="text" name="goals_interests" value="" placeholder="Goals/Interests"></p>
+      <p>Interest in becoming part of the Rhinos Youth Activity Board:
+      <p><input  type="radio" name="interest_as_rhinos_youth_activity_board" value="yes"> Yes</p>
+      <input  type="radio" name="interest_as_rhinos_youth_activity_board" value="no"> No</p>
+
+
+      <h3>Parent/Guardian Info</h3>
+
+      <p>Fullname:
+      <input  type="text" name="parent_guardian_fullname" value="" placeholder="fullname"></p>
+      <p>Cell Phone:
+      <input  type="tel" name="parent_guardian_cell_phone" value="" placeholder="Phone Number"></p>
+      <p>Home phone: 
+      <input  type="tel" name="parent_guardian_home_phone" value="" placeholder="Home Phone"></p>
+      <p>Email Address:
+      <input  type="email_address" name="parent_guardian_email" value="" placeholder="Email"></p>
+      <p>Occupation Info
+      <input  type="text" name="parent_guardian_occupation" value="" placeholder="Occupation">
+      <input  type="text" name="parent_guardian_place_of_employment" value="" placeholder="Place of Employment">
+      <input  type="text" name="parent_guardian_work_address" value="" placeholder="Work address">
+      <input  type="tel" name="parent_guardian_work_phone" value="" placeholder="Work Phone">
+      <p>Interest In:
+      <p><input  type="checkbox" name="parent_guardian_interest_in_rhinos_advisory_board" value="yes"> Being a part of the Rhinos Activity Board</p>
+      <input  type="checkbox" name="parent_guardian_interest_in_volunteering" value="yes"> Volunteering</p>
+      <input  type="checkbox" name="parent_guardian_interest_in_fundraising" value="yes"> Fundraising</p>
+      <input  type="checkbox" name="parent_guardian_interest_in_donating" value="yes"> Donating</p>
+
+      <h4>Parent/Guardian 02 Info: </h4>
+      <p>Fullname:
+      <input  type="text" name="parent_guardian02_fullname" value="" placeholder="fullname"></p>
+      <p>Cell Phone:
+      <input  type="tel" name="parent_guardian02_cell_phone" value="" placeholder="Phone Number"></p>
+
+
+      <h3>Participant Health: </h3>
+      <p>Allergies/Medications:
+      <input  type="text" name="allergies" value="" placeholder="Allergies">
+      <input  type="text" name="medications" value="" placeholder="Medications"></p>
+      <p>Conditions/Dietary Restrictions:
+      <input  type="text" name="conditions_dietary_restrictions" value="" placeholder="">
+      <p>Precautions of Child's Physical and/or Mental Health:
+      <input  type="text" name="precautions_of_childs_mental_physical_health" value="" placeholder="Precautions"></p>
+      <p>History of:
+      <p><input  type="checkbox" name="checkbox_suicide_attempt" value="checked">Suicide Attempt</p>
+      <input  type="checkbox" name="checkbox_anxiety" value="checked">Anxiety</p>
+      <input  type="checkbox" name="checkbox_depression" value="checked">Depression</p>
+      <input  type="checkbox" name="checkbox_etc" value="checked">Etc...(please add a description below)</p>
+      <input  type="text" name="checkbox_etc_description" value="" placeholder="Description"></p>
+
+	  <div><input type="submit" name="submit" value="submit"></div>
+		
+	  </form>
+	</body>
+  
+</html>
